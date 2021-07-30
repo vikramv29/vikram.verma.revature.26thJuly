@@ -1,0 +1,1415 @@
+!SESSION 2021-07-29 21:10:02.199 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=1.8.0_301
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file D:\My Workspace\.metadata\.bak_0.log
+Created Time: 2021-07-29 21:10:08.316
+
+!ENTRY org.eclipse.ui 2 0 2021-07-29 21:10:08.316
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-29 21:10:08.316
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2021-07-29 21:10:10.757
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-29 21:10:10.758
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69d58731,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3275a47f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:16.217
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:16.217
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@724e0a77[org.springframework.tooling.boot.ls:1.18.0.202005250744(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:16.239
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:16.282
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-29 21:10:18.348
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\USER1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.079
+!MESSAGE Boot LS startup time from start to initialized: 5822ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.143
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LuSSKsdrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.144
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.146
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.147
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.150
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.150
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.151
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.151
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LuSSKsdr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.157
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.158
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr mytasks false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.159
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.160
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.161
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr arrays_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.162
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.162
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.164
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr buffer_builder_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.164
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.166
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.167
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr constructors_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.168
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.169
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.170
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr encapsulation_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.171
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.173
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.174
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr first_java_app_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.174
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.178
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.180
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr primitives_data_types_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.180
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.182
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.184
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr reading_inputs_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.184
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.186
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.188
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr regex_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.188
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.190
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.191
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr static_nonstatic_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.191
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.192
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.193
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr strings_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.194
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.195
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.196
+!MESSAGE buffering callback sts4.classpath.LuSSKsdr wrappers_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.196
+!MESSAGE executing callback sts4.classpath.LuSSKsdr 12 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 21:10:22.263
+!MESSAGE executing callback sts4.classpath.LuSSKsdr SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-07-29 21:10:33.798
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 23:16:40.403
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LuSSKsdr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 23:16:40.616
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LuSSKsdr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 23:16:40.618
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 23:16:40.618
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LuSSKsdr => OK
+!SESSION 2021-07-30 09:28:27.996 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=1.8.0_301
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Users\USER1\Downloads\sts-4.6.2.RELEASE\configuration\1627617508214.bak_0.log
+Created Time: 2021-07-30 09:28:30.977
+
+!ENTRY org.eclipse.pde.genericeditor.extension 4 0 2021-07-30 09:28:30.977
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.genericeditor.extension [404]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.10.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.11.300.v20200214-1413"; singleton:="true"
+       org.eclipse.pde.ui [410]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.build; bundle-version="3.10.700.v20191228-1214"; singleton:="true"
+              org.eclipse.pde.build [396]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                  -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                     org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                         -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                            org.eclipse.equinox.simpleconfigurator [658]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator.utils
+                         -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator.utils; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.updatesite; resolution:="optional"
+                  -> Export-Package: org.eclipse.equinox.internal.p2.updatesite; bundle-symbolic-name="org.eclipse.equinox.p2.updatesite"; bundle-version="1.1.300.v20191016-0515"; version="0.0.0"; x-friends:="org.eclipse.pde.build"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.13.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.13.300.v20200217-1517"; singleton:="true"
+              org.eclipse.pde.core [397]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="2.1.500.v20200211-1505"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.10.0,4.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.pde.build; bundle-version="3.10.700.v20191228-1214"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.pde.launching 4 0 2021-07-30 09:28:30.980
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.launching [406]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.13.300.v20200217-1517"; singleton:="true"
+       org.eclipse.pde.core [397]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.10.0,4.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.build; bundle-version="3.10.700.v20191228-1214"; singleton:="true"
+              org.eclipse.pde.build [396]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                  -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                     org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                         -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                            org.eclipse.equinox.simpleconfigurator [658]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator.utils
+                         -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator.utils; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.updatesite; resolution:="optional"
+                  -> Export-Package: org.eclipse.equinox.internal.p2.updatesite; bundle-symbolic-name="org.eclipse.equinox.p2.updatesite"; bundle-version="1.1.300.v20191016-0515"; version="0.0.0"; x-friends:="org.eclipse.pde.build"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.core; bundle-version="[3.6.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.junit.core; bundle-version="3.10.600.v20200214-0716"; singleton:="true"
+       org.eclipse.jdt.junit.core [241]
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="2.1.500.v20200211-1505"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.build; bundle-version="3.10.700.v20191228-1214"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.pde.ua.core 4 0 2021-07-30 09:28:30.984
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ua.core [408]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.3.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.13.300.v20200217-1517"; singleton:="true"
+       org.eclipse.pde.core [397]
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="2.1.500.v20200211-1505"; singleton:="true"
+              org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                  -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                     org.eclipse.equinox.simpleconfigurator [658]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator.utils
+                  -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator.utils; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.10.0,4.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.build; bundle-version="3.10.700.v20191228-1214"; singleton:="true"
+              org.eclipse.pde.build [396]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                  -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.updatesite; resolution:="optional"
+                  -> Export-Package: org.eclipse.equinox.internal.p2.updatesite; bundle-symbolic-name="org.eclipse.equinox.p2.updatesite"; bundle-version="1.1.300.v20191016-0515"; version="0.0.0"; x-friends:="org.eclipse.pde.build"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.pde.ua.ui 4 0 2021-07-30 09:28:30.989
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ua.ui [409]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.11.300.v20200214-1413"; singleton:="true"
+       org.eclipse.pde.ui [410]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.build; bundle-version="3.10.700.v20191228-1214"; singleton:="true"
+              org.eclipse.pde.build [396]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                  -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                     org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                         -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                            org.eclipse.equinox.simpleconfigurator [658]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator.utils
+                         -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator.utils; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.updatesite; resolution:="optional"
+                  -> Export-Package: org.eclipse.equinox.internal.p2.updatesite; bundle-symbolic-name="org.eclipse.equinox.p2.updatesite"; bundle-version="1.1.300.v20191016-0515"; version="0.0.0"; x-friends:="org.eclipse.pde.build"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.13.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.13.300.v20200217-1517"; singleton:="true"
+              org.eclipse.pde.core [397]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="2.1.500.v20200211-1505"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.10.0,4.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.pde.build; bundle-version="3.10.700.v20191228-1214"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ua.core; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ua.core; bundle-version="1.1.500.v20200113-1730"; singleton:="true"
+       org.eclipse.pde.ua.core [408]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.3.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.13.300.v20200217-1517"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.pde.ui 4 0 2021-07-30 09:28:30.994
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ui [410]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.build; bundle-version="3.10.700.v20191228-1214"; singleton:="true"
+       org.eclipse.pde.build [396]
+         Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+           -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+              org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                  -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                     org.eclipse.equinox.simpleconfigurator [658]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator.utils
+                  -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator.utils; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.updatesite; resolution:="optional"
+           -> Export-Package: org.eclipse.equinox.internal.p2.updatesite; bundle-symbolic-name="org.eclipse.equinox.p2.updatesite"; bundle-version="1.1.300.v20191016-0515"; version="0.0.0"; x-friends:="org.eclipse.pde.build"
+              org.eclipse.equinox.p2.updatesite [214]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                  -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                     org.eclipse.equinox.p2.publisher.eclipse [201]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                         -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                  -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.13.0,4.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.13.300.v20200217-1517"; singleton:="true"
+       org.eclipse.pde.core [397]
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-version="2.1.500.v20200211-1505"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.10.0,4.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.build; bundle-version="3.10.700.v20191228-1214"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2021-07-30 09:28:44.988
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.server.core [540]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.discovery [541]
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+              org.eclipse.equinox.p2.ui [208]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                  -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                     org.eclipse.equinox.p2.director [188]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                            org.eclipse.equinox.simpleconfigurator [658]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                  -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+              org.eclipse.equinox.p2.updatesite [214]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                  -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                     org.eclipse.equinox.p2.publisher.eclipse [201]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                         -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                            org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                  -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+              org.eclipse.equinox.p2.operations [199]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                  -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                  -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+           -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.server.discovery 4 0 2021-07-30 09:28:44.995
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.server.discovery [541]
+  Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+       org.eclipse.equinox.p2.ui [208]
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+           -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+              org.eclipse.equinox.p2.director [188]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                  -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                     org.eclipse.equinox.simpleconfigurator [658]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+           -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+  Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+       org.eclipse.equinox.p2.updatesite [214]
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+           -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+              org.eclipse.equinox.p2.publisher.eclipse [201]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                  -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                     org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                         -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+         Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+           -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+  Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+       org.eclipse.equinox.p2.operations [199]
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+           -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+           -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+  Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+    -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.server.http.core 4 0 2021-07-30 09:28:45.002
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.server.http.core [542]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.204,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.core [540]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.discovery [541]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+                     org.eclipse.equinox.p2.ui [208]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                            org.eclipse.equinox.p2.director [188]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                                   org.eclipse.equinox.simpleconfigurator [658]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                                   org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                       -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+                     org.eclipse.equinox.p2.operations [199]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.server.http.ui 4 0 2021-07-30 09:28:45.007
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.server.http.ui [543]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.ui; bundle-version="[1.0.103,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.ui; bundle-version="1.5.600.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.ui [546]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.discovery [541]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+                     org.eclipse.equinox.p2.ui [208]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                            org.eclipse.equinox.p2.director [188]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                                   org.eclipse.equinox.simpleconfigurator [658]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                                   org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                       -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+                     org.eclipse.equinox.p2.operations [199]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.103,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.core [540]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.204,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.http.core; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.http.core; bundle-version="1.0.400.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.http.core [542]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.204,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.server.preview.adapter 4 0 2021-07-30 09:28:45.013
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.server.preview.adapter [545]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.ui; bundle-version="[1.0.103,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.ui; bundle-version="1.5.600.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.ui [546]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.discovery [541]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+                     org.eclipse.equinox.p2.ui [208]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                            org.eclipse.equinox.p2.director [188]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                                   org.eclipse.equinox.simpleconfigurator [658]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                                   org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                       -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+                     org.eclipse.equinox.p2.operations [199]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.103,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.core [540]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.204,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.server.ui 4 0 2021-07-30 09:28:45.019
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.server.ui [546]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.discovery [541]
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+              org.eclipse.equinox.p2.ui [208]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                  -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                     org.eclipse.equinox.p2.director [188]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                            org.eclipse.equinox.simpleconfigurator [658]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                  -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+              org.eclipse.equinox.p2.updatesite [214]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                  -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                     org.eclipse.equinox.p2.publisher.eclipse [201]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                         -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                            org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                  -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+              org.eclipse.equinox.p2.operations [199]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                  -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                  -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+           -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.103,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.core [540]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.web 4 0 2021-07-30 09:28:45.026
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.web [557]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.10.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.core [540]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.discovery [541]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+                     org.eclipse.equinox.p2.ui [208]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                            org.eclipse.equinox.p2.director [188]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                                   org.eclipse.equinox.simpleconfigurator [658]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                                   org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                       -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+                     org.eclipse.equinox.p2.operations [199]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.web.ui 4 0 2021-07-30 09:28:45.034
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.web.ui [558]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.ui; bundle-version="[1.5.400,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.ui; bundle-version="1.5.600.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.ui [546]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.discovery [541]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+                     org.eclipse.equinox.p2.ui [208]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                            org.eclipse.equinox.p2.director [188]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                                   org.eclipse.equinox.simpleconfigurator [658]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                                   org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                       -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+                     org.eclipse.equinox.p2.operations [199]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.103,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.core [540]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.web; bundle-version="[1.2.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.web; bundle-version="1.2.100.v201905161255"; singleton:="true"
+       org.eclipse.wst.web [557]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.10.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.ws 4 0 2021-07-30 09:28:45.042
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.ws [561]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.102,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+       org.eclipse.wst.server.core [540]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.discovery [541]
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+                     org.eclipse.equinox.p2.ui [208]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                            org.eclipse.equinox.p2.director [188]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                                   org.eclipse.equinox.simpleconfigurator [658]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+                     org.eclipse.equinox.p2.updatesite [214]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                            org.eclipse.equinox.p2.publisher.eclipse [201]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                                   org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                       -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                         -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+                     org.eclipse.equinox.p2.operations [199]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+                  -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.ws.explorer 4 0 2021-07-30 09:28:45.051
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.ws.explorer [562]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.500.v201910301957"; singleton:="true"
+       org.eclipse.wst.ws [561]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.core [540]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+                     org.eclipse.wst.server.discovery [541]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+                            org.eclipse.equinox.p2.ui [208]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                                -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                                   org.eclipse.equinox.p2.director [188]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                       -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                                          org.eclipse.equinox.simpleconfigurator [658]
+                                            Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+                            org.eclipse.equinox.p2.updatesite [214]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                                -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                                   org.eclipse.equinox.p2.publisher.eclipse [201]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                       -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                                          org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                                            Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                              -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                                -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+                            org.eclipse.equinox.p2.operations [199]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                                -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.ui; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.ui; bundle-version="1.2.0.v201910301957"; singleton:="true"
+       org.eclipse.wst.ws.ui [565]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.500.v201910301957"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.ws.ui 4 0 2021-07-30 09:28:45.059
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.ws.ui [565]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.500.v201910301957"; singleton:="true"
+       org.eclipse.wst.ws [561]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.server.core; bundle-version="1.10.100.v201910252115"; singleton:="true"
+              org.eclipse.wst.server.core [540]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.server.discovery; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.server.discovery; bundle-version="1.3.200.v201910252115"; singleton:="true"
+                     org.eclipse.wst.server.discovery [541]
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui; bundle-version="[2.0.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+                            org.eclipse.equinox.p2.ui [208]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                                -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                                   org.eclipse.equinox.p2.director [188]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                       -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                                          org.eclipse.equinox.simpleconfigurator [658]
+                                            Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.updatesite; bundle-version="[1.0.100,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.p2.updatesite; bundle-version="1.1.300.v20191016-0515"; singleton:="true"
+                            org.eclipse.equinox.p2.updatesite [214]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+                                -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+                                   org.eclipse.equinox.p2.publisher.eclipse [201]
+                                     Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                                       -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+                                          org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                                            Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                                              -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.p2.publisher.eclipse
+                                -> Export-Package: org.eclipse.equinox.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.repository.tools"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.operations; bundle-version="[2.0.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.p2.operations; bundle-version="2.5.700.v20191211-1713"; singleton:="true"
+                            org.eclipse.equinox.p2.operations [199]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                                -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                       Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.director; bundle-version="[1.0.100,3.0.0]"
+                         -> Bundle-SymbolicName: org.eclipse.equinox.p2.director; bundle-version="2.4.600.v20200211-1504"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.tools.maven.apt.ui 4 0 2021-07-30 09:28:45.063
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.maven.apt.ui [590]
+  Unresolved requirement: Require-Bundle: org.eclipse.m2e.editor.xml
+    -> Bundle-SymbolicName: org.eclipse.m2e.editor.xml; bundle-version="1.15.0.20200223-1407"; singleton:="true"
+       org.eclipse.m2e.editor.xml [357]
+         Unresolved requirement: Require-Bundle: org.eclipse.m2e.discovery; bundle-version="[1.15.0,1.16.0)"
+           -> Bundle-SymbolicName: org.eclipse.m2e.discovery; bundle-version="1.15.0.20200109-1036"; singleton:="true"
+              org.eclipse.m2e.discovery [355]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.ui.dialogs
+                  -> Export-Package: org.eclipse.equinox.internal.p2.ui.dialogs; bundle-symbolic-name="org.eclipse.equinox.p2.ui"; bundle-version="2.5.800.v20200213-1530"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.ui.admin,  org.eclipse.equinox.p2.ui.sdk.scheduler,  org.eclipse.pde.ui,  org.eclipse.equinox.p2.ui.importexport"
+                     org.eclipse.equinox.p2.ui [208]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                         -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                            org.eclipse.equinox.p2.director [188]
+                              Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                                -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                                   org.eclipse.equinox.simpleconfigurator [658]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                         -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.ui
+                  -> Export-Package: org.eclipse.equinox.internal.p2.ui; bundle-symbolic-name="org.eclipse.equinox.p2.ui"; bundle-version="2.5.800.v20200213-1530"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.ui.admin,  org.eclipse.pde.ui,  org.eclipse.equinox.p2.ui.sdk,  org.eclipse.equinox.p2.ui.rcp,  org.eclipse.equinox.p2.ui.importexport,  org.eclipse.equinox.p2.ui.sdk.scheduler,  org.eclipse.equinox.p2.discovery,  org.eclipse.equinox.p2.ui.discovery"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.boot.ide.branding 4 0 2021-07-30 09:28:45.067
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.boot.ide.branding [619]
+  Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui
+    -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+       org.eclipse.equinox.p2.ui [208]
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+           -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+              org.eclipse.equinox.p2.director [188]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                  -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+                     org.eclipse.equinox.simpleconfigurator [658]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+           -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+  Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui.sdk
+    -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui.sdk; bundle-version="1.1.500.v20191016-0512"; singleton:="true"
+       org.eclipse.equinox.p2.ui.sdk [211]
+         Unresolved requirement: Import-Package: org.eclipse.equinox.p2.operations; version="[2.0.0,3.0.0)"
+           -> Export-Package: org.eclipse.equinox.p2.operations; bundle-symbolic-name="org.eclipse.equinox.p2.operations"; bundle-version="2.5.700.v20191211-1713"; version="2.0.0"
+              org.eclipse.equinox.p2.operations [199]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+                  -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+                  -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+         Unresolved requirement: Import-Package: org.eclipse.equinox.p2.planner; version="2.0.0"
+           -> Export-Package: org.eclipse.equinox.p2.planner; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="2.0.0"
+         Unresolved requirement: Require-Bundle: org.eclipse.equinox.p2.ui
+           -> Bundle-SymbolicName: org.eclipse.equinox.p2.ui; bundle-version="2.5.800.v20200213-1530"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2021-07-30 09:28:45.076
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.equinox.p2.reconciler.dropins [202]
+  Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.director
+    -> Export-Package: org.eclipse.equinox.internal.p2.director; bundle-symbolic-name="org.eclipse.equinox.p2.director"; bundle-version="2.4.600.v20200211-1504"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.pde.core,  org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director.app"
+       org.eclipse.equinox.p2.director [188]
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.provisional.configurator
+           -> Export-Package: org.eclipse.equinox.internal.provisional.configurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.console,  org.eclipse.equinox.p2.operations,  org.eclipse.equinox.p2.ui,  org.eclipse.equinox.p2.director"
+              org.eclipse.equinox.simpleconfigurator [658]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+  Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.extensionlocation
+    -> Export-Package: org.eclipse.equinox.internal.p2.extensionlocation; bundle-symbolic-name="org.eclipse.equinox.p2.extensionlocation"; bundle-version="1.3.400.v20191213-1911"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,org.eclipse.equinox.p2.ui.importexport"
+       org.eclipse.equinox.p2.extensionlocation [194]
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.touchpoint.eclipse
+           -> Export-Package: org.eclipse.equinox.internal.p2.touchpoint.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.touchpoint.eclipse"; bundle-version="2.2.600.v20200114-1339"; version="2.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.ui.importexport,  org.eclipse.equinox.p2.ui.sdk.scheduler"
+              org.eclipse.equinox.p2.touchpoint.eclipse [205]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator.manipulator
+                  -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.touchpoint.eclipse"
+                     org.eclipse.equinox.simpleconfigurator.manipulator [220]
+                       Unresolved requirement: Import-Package: org.eclipse.equinox.internal.simpleconfigurator
+                         -> Export-Package: org.eclipse.equinox.internal.simpleconfigurator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator"; bundle-version="1.4.0.v20210315-2228"; version="0.0.0"; x-friends:="org.eclipse.equinox.simpleconfigurator.manipulator"
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.publisher.eclipse
+           -> Export-Package: org.eclipse.equinox.internal.p2.publisher.eclipse; bundle-symbolic-name="org.eclipse.equinox.p2.publisher.eclipse"; bundle-version="1.3.500.v20200203-1449"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools,  org.eclipse.equinox.p2.updatesite,  org.eclipse.pde.build"
+              org.eclipse.equinox.p2.publisher.eclipse [201]
+                Unresolved requirement: Import-Package: org.eclipse.equinox.simpleconfigurator.manipulator; version="[2.0.0,3.0.0)"
+                  -> Export-Package: org.eclipse.equinox.simpleconfigurator.manipulator; bundle-symbolic-name="org.eclipse.equinox.simpleconfigurator.manipulator"; bundle-version="2.1.500.v20200211-1505"; version="2.0.0"
+         Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.update
+           -> Export-Package: org.eclipse.equinox.internal.p2.update; bundle-symbolic-name="org.eclipse.equinox.p2.touchpoint.eclipse"; bundle-version="2.2.600.v20200114-1339"; version="2.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,org.eclipse.equinox.p2.extensionlocation,org.eclipse.equinox.p2.directorywatcher"
+  Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.update
+    -> Export-Package: org.eclipse.equinox.internal.p2.update; bundle-symbolic-name="org.eclipse.equinox.p2.touchpoint.eclipse"; bundle-version="2.2.600.v20200114-1339"; version="2.0.0"; x-friends:="org.eclipse.equinox.p2.reconciler.dropins,org.eclipse.equinox.p2.extensionlocation,org.eclipse.equinox.p2.directorywatcher"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1785)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.osgi 4 0 2021-07-30 09:28:45.102
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.simpleconfigurator_1.4.0.v20210315-2228.jar was not resolved.
+
+!ENTRY org.eclipse.equinox.app 0 0 2021-07-30 09:28:45.402
+!MESSAGE Product org.springframework.boot.ide.branding.sts4 could not be found.
+
+!ENTRY org.eclipse.ui 2 0 2021-07-30 09:28:50.436
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-30 09:28:50.436
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2021-07-30 09:28:58.919
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-30 09:28:58.919
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e8afc2d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d172c7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:34.957
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:34.960
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6bf70600[org.springframework.tooling.boot.ls:1.18.0.202005250744(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:35.009
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:35.329
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:43.781
+!MESSAGE Boot LS startup time from start to initialized: 8609ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:44.250
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PjfOqmPeisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:44.257
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:44.261
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:44.271
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:44.280
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:44.282
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:44.283
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PjfOqmPe => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:47.995
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.011
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.014
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe mytasks false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.017
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.023
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.026
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe arrays_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.027
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.030
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.031
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe buffer_builder_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.032
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.035
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.036
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe constructors_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.036
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.039
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.039
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe encapsulation_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.040
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.041
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.043
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe first_java_app_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.043
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.045
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.047
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe primitives_data_types_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.048
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.050
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.051
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe reading_inputs_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.053
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.054
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe regex_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.054
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.056
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.057
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe static_nonstatic_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.057
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.059
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.060
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe strings_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.061
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.064
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.066
+!MESSAGE buffering callback sts4.classpath.PjfOqmPe wrappers_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.067
+!MESSAGE executing callback sts4.classpath.PjfOqmPe 12 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-30 09:29:48.183
+!MESSAGE executing callback sts4.classpath.PjfOqmPe SUCCESS [done]
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-30 09:29:50.371
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\USER1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-07-30 09:29:58.123
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
