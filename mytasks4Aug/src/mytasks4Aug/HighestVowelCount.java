@@ -12,7 +12,7 @@ public class HighestVowelCount {
 	}
 	public static String hello(String s) {
 		String[] ar=s.split(" ");
-		Arrays.sort(ar);
+		Arrays.sort(ar); 
 		Map<Integer,String> map=new TreeMap<>(Collections.reverseOrder());
 		for(String w:ar) {
 			//int length=w.length();
@@ -34,7 +34,7 @@ public class HighestVowelCount {
 		return sb.toString().trim();
 	}
 	public static int countVowel(String s) {
-		int count=0;
+		int count=0; 
 		s.toLowerCase();
 		for (int i = 0; i < s.length(); i++) {
 			if(s.charAt(i)=='a' ||s.charAt(i)=='e' ||s.charAt(i)=='i' ||s.charAt(i)=='o' ||s.charAt(i)=='u') 
