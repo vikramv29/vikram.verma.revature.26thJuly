@@ -1,0 +1,13 @@
+AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, . NET, PHP, Node. js, Python, Ruby
+-------------------------------------------------------------------------------------------------------
+
+AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. ... AWS Auto Scaling is available at no additional charge. You pay only for the AWS resources needed to run your applications.
+--------------------------------------------------------------------------------------------------------
+
+An Amazon S3 bucket is a public cloud storage resource available in Amazon Web Services' (AWS) Simple Storage Service (S3), an object storage offering. Amazon S3 buckets, which are similar to file folders, store objects, which consist of data and its descriptive metadata.
+----------------------------------------------------------------------------------------------------------
+
+A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud. ... You can specify an IP address range for the VPC, add subnets, associate security groups, and configure route tables. A subnet is a range of IP addresses in your VPC.
+------------------------------------------------------------------------------------------------------------
+
+
