@@ -1,0 +1,14 @@
+<div class="container-fluid">
+    <h2 style="text-decoration: underline;">Add Student</h2>
+    <label>Student Name</label>
+    <input class="form-control" type="text" [(ngModel)]="student.name">
+    <label>Student EmailId</label>
+    <input class="form-control" type="text" [(ngModel)]="student.emailId">
+    <label>Student City</label>
+    <input class="form-control" type="text" [(ngModel)]="student.city">
+    <label>Student Avatar</label>
+    <input class="form-control" type="text" [(ngModel)]="student.avatar">
+    <br />
+    <br  />
+    <button class="btn btn-primary" type="button"(click)="addStudent()">Register Student</button>  
+</div>

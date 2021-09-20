@@ -1,0 +1,23 @@
+<div class="container" *ngIf="viewFlag">
+  <h3 class="nav justify-content-center" *ngIf="!flag">No Student Exists In Database.</h3>
+
+  <div class="mb-5" *ngIf="flag">
+      <label for="id" class="form-label">Enter Id to Update Student:</label>
+      <input type="number" class="form-control" [(ngModel)]="id">
+  </div>
+  <button *ngIf="flag" type="button" class="btn btn-primary" style="background:red" (click)="getStudentById()">Search
+  Student</button>
+</div>
+
+<div class="container-fluid" *ngIf="!viewFlag">
+  <label>Student Name</label>
+  <input class="form-control" type="text" value="{{student.name}}" [(ngModel)]="student.name">
+  <label></label>
+ 
+  <label>Student Avatar</label>
+  <img [src]="student.avatar" class="img-thumbnail" alt="...">
+  <input class="form-control" type="text" value="{{student.avatar}}" [(ngModel)]="student.avatar">
+  <br />
+  <br />
+  <button class="btn btn-primary" type="button" (click)="updateStudent()">Update Student</button>
+</div>

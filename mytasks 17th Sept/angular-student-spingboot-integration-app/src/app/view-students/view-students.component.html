@@ -1,0 +1,10 @@
+<div class="container-fluid">
+    <div class="card" *ngFor="let student of students">
+        <img class="card-img-top" style="width: 300px; height: 300px;" [src]="student.avatar" alt="{{student.name}}">
+        <div class="card-body">
+            <h5 class="card-title">{{student.name | uppercase}}</h5>
+            <p class="card-text">Email Id: {{student.emailId}}</p>
+            <p class="card-text">City: {{student.city}}</p>
+        </div>
+    </div>
+</div>
